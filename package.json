@@ -1,0 +1,79 @@
+{
+  "name": "@hzblj/expo-rich-haptics",
+  "version": "0.1.0",
+  "description": "Haptics for Expo that feel like the platform: UIKit feedback and Core Haptics patterns on iOS, the system's haptic feedback and rich primitives on Android, never a vibrator buzz.",
+  "author": "Jan Blazej",
+  "license": "MIT",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "default": "./build/index.js"
+    },
+    "./expo-module.config.json": "./expo-module.config.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "android/build.gradle",
+    "android/src/**",
+    "build",
+    "expo-module.config.json",
+    "ios"
+  ],
+  "keywords": [
+    "android",
+    "core-haptics",
+    "expo",
+    "expo-module",
+    "feedback",
+    "haptic",
+    "haptics",
+    "ios",
+    "react-native",
+    "taptic",
+    "vibration"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzblj/expo-rich-haptics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hzblj/expo-rich-haptics/issues"
+  },
+  "homepage": "https://github.com/hzblj/expo-rich-haptics#readme",
+  "scripts": {
+    "build": "rm -rf build && tsc -p tsconfig.build.json",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "prepack": "yarn build",
+    "release": "changeset publish",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "expo": ">=57",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.4",
+    "@changesets/changelog-github": "0.7.0",
+    "@changesets/cli": "2.31.1",
+    "@hzblj/biome-config": "^0.2.1",
+    "@types/node": "^22.19.0",
+    "@types/react": "~19.2.14",
+    "expo": "~57.0.30",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "packageManager": "yarn@4.18.0"
+}
