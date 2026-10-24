@@ -1,6 +1,6 @@
 {
   "name": "@hzblj/expo-rich-haptics",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Haptics for Expo that feel like the platform: UIKit feedback and Core Haptics patterns on iOS, the system's haptic feedback and rich primitives on Android, never a vibrator buzz.",
   "author": "Jan Blazej",
   "license": "MIT",
