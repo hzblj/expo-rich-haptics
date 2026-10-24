@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage       = package['homepage']
   s.license        = package['license']
   s.platforms      = { :ios => '15.1' }
-  s.source         = { :git => 'https://github.com/hzblj/expo-rich-haptics.git', :tag => "v#{s.version}" }
+  s.source         = { :git => 'https://github.com/hzblj/expo-rich-haptics.git', :tag => "@hzblj/expo-rich-haptics@#{s.version}" }
   s.static_framework = true
 
   s.dependency 'ExpoModulesCore'
