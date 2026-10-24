@@ -118,6 +118,10 @@ The [example app](https://github.com/hzblj/expo-rich-haptics/tree/main/apps/exam
 yarn && yarn prebuild && yarn ios
 ```
 
+## More libraries
+
+The other libraries from the same author are at **[libraries.janblazej.dev](https://www.libraries.janblazej.dev)**.
+
 ## License
 
 MIT © Jan Blazej

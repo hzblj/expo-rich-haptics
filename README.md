@@ -40,6 +40,10 @@ yarn changeset       # describe a change for the next release
 
 Haptics are felt, not seen: the simulator and the emulator play nothing, so run the example on a device.
 
+## More libraries
+
+The other libraries from the same author are at **[libraries.janblazej.dev](https://www.libraries.janblazej.dev)**.
+
 ## License
 
 MIT © Jan Blazej
