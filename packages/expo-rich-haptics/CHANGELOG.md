@@ -1,5 +1,11 @@
 # @hzblj/expo-rich-haptics
 
+## 0.1.3
+
+### Patch Changes
+
+- [`998d93e`](https://github.com/hzblj/expo-rich-haptics/commit/998d93edb2435f32ac8d13e8f87455ac7eab56bb) Thanks [@hzblj](https://github.com/hzblj)! - The README shows the example app on iOS and Android.
+
 ## 0.1.2
 
 ### Patch Changes
