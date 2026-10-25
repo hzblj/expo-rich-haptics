@@ -5,6 +5,11 @@
 
 Haptics for Expo that feel like the platform. Name what happened and each platform plays its own feedback for it, or compose a pattern of your own from Android's haptic primitives, which iOS plays through Core Haptics. Never a vibrator buzz.
 
+<p>
+  <img alt="Haptic patterns drawn from their primitives, in the example on iOS" height="560" src="media/ios-patterns.png" />
+  <img alt="The same on Android" height="560" src="media/android-patterns.png" />
+</p>
+
 ```sh
 npx expo install @hzblj/expo-rich-haptics
 ```

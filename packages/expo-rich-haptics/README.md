@@ -5,6 +5,11 @@
 
 Haptics for Expo that feel like the platform. Name what happened and each platform plays its own feedback for it, or compose a pattern of your own from Android's haptic primitives, which iOS plays through Core Haptics.
 
+<p>
+  <img alt="Haptic patterns drawn from their primitives, in the example on iOS" height="560" src="https://raw.githubusercontent.com/hzblj/expo-rich-haptics/main/media/ios-patterns.png" />
+  <img alt="The same on Android" height="560" src="https://raw.githubusercontent.com/hzblj/expo-rich-haptics/main/media/android-patterns.png" />
+</p>
+
 - iOS: UIKit's feedback generators for names, Core Haptics for patterns
 - Android: the system's haptic feedback constants for names, composition primitives for patterns, never a vibrator buzz
 - Names for what happened (`selection`, `toggleOn`, `thresholdActivate`...), with Android 14's constants and fallbacks for every older version
